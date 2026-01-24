@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sundha Hillview Resort | Digital Menu</title>
+  <style>
+    :root {
+      --primary: #0b2c4d; /* Dark Blue */
+      --background: #ffffff; /* White */
+      --text: #1a1a1a;
+      --muted: #666666;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Segoe UI", Arial, sans-serif;
+    }
+
+    body {
+      background: var(--background);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    header {
+      background: var(--primary);
+      color: #fff;
+      padding: 24px 16px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 32px;
+      letter-spacing: 1px;
+    }
+
+    header p {
+      font-size: 14px;
+      opacity: 0.9;
+      margin-top: 6px;
+    }
+
+    nav {
+      background: #f4f6f8;
+      padding: 10px;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    nav a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: var(--primary);
+      font-weight: 600;
+      font-size: 14px;
+    }
+
+    section {
+      padding: 40px 16px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    section h2 {
+      color: var(--primary);
+      margin-bottom: 20px;
+      border-bottom: 2px solid var(--primary);
+      display: inline-block;
+      padding-bottom: 6px;
+      font-size: 24px;
+    }
+
+    .menu-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+    }
+
+    .item {
+      border: 1px solid #e5e5e5;
+      padding: 14px;
+      border-radius: 8px;
+    }
+
+    .item h4 {
+      font-size: 16px;
+      margin-bottom: 4px;
+    }
+
+    .item span {
+      color: var(--primary);
+      font-weight: bold;
+    }
+
+    .thali {
+      border: 1px solid #e5e5e5;
+      border-radius: 8px;
+      padding: 18px;
+      margin-top: 20px;
+    }
+
+    footer {
+      background: var(--primary);
+      color: #fff;
+      text-align: center;
+      padding: 20px 16px;
+      font-size: 14px;
+    }
+
+    footer p {
+      opacity: 0.9;
+    }
+
+    @media (max-width: 600px) {
+      header h1 { font-size: 24px; }
+      nav a { display: inline-block; margin: 6px; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <!-- Replace src with your uploaded logo -->
+ <p> <img src="C:\Users\user\Downloads\LOGO.jpg" height="80" /> </p>
+  <h1>SUNDHA HILLVIEW RESORT</h1>
+  <p>Restaurant & Dining</p>
+</header>
+
+<nav>
+  <a href="#starters">Starters</a>
+  <a href="#main">Main Course</a>
+  <a href="#fast">Fast Food</a>
+  <a href="#south">South Indian</a>
+  <a href="#thali">Thali</a>
+  <a href="#dessert">Desserts</a>
+  <a href="#beverages">Beverages</a>
+</nav>
+
+<section id="starters">
+  <h2>Starters</h2>
+  <div class="menu-grid">
+    <div class="item"><h4>Paneer Tikka</h4><span>₹280</span></div>
+    <div class="item"><h4>Achari Paneer Tikka</h4><span>₹290</span></div>
+    <div class="item"><h4>Veg Seekh Kebab</h4><span>₹240</span></div>
+    <div class="item"><h4>Hara Bhara Kebab</h4><span>₹220</span></div>
+    <div class="item"><h4>Crispy Corn</h4><span>₹210</span></div>
+    <div class="item"><h4>Veg Manchurian Dry</h4><span>₹230</span></div>
+    <div class="item"><h4>Chilli Paneer Dry</h4><span>₹260</span></div>
+    <div class="item"><h4>Mushroom Pepper Fry</h4><span>₹250</span></div>
+    <div class="item"><h4>French Fries</h4><span>₹180</span></div>
+    <div class="item"><h4>Cheese Balls</h4><span>₹220</span></div>
+    <div class="item"><h4>Veg Spring Roll</h4><span>₹230</span></div>
+    <div class="item"><h4>Paneer Pakora</h4><span>₹200</span></div>
+    <div class="item"><h4>Onion Pakora</h4><span>₹160</span></div>
+    <div class="item"><h4>Corn Cheese Nuggets</h4><span>₹240</span></div>
+    <div class="item"><h4>Veg Cutlet</h4><span>₹180</span></div>
+    <div class="item"><h4>Cheese Chilli Toast</h4><span>₹210</span></div>
+    <div class="item"><h4>Paneer 65</h4><span>₹260</span></div>
+    <div class="item"><h4>Veg Lollipop</h4><span>₹230</span></div>
+    <div class="item"><h4>Crispy Baby Corn</h4><span>₹240</span></div>
+    <div class="item"><h4>Stuffed Mushroom</h4><span>₹260</span></div>
+  </div>
+</section>
+
+<section id="main">
+  <h2>Main Course</h2>
+  <div class="menu-grid">
+    <div class="item"><h4>Paneer Butter Masala</h4><span>₹330</span></div>
+    <div class="item"><h4>Shahi Paneer</h4><span>₹320</span></div>
+    <div class="item"><h4>Kadai Paneer</h4><span>₹310</span></div>
+    <div class="item"><h4>Paneer Lababdar</h4><span>₹340</span></div>
+    <div class="item"><h4>Malai Kofta</h4><span>₹320</span></div>
+    <div class="item"><h4>Mix Veg Handi</h4><span>₹290</span></div>
+    <div class="item"><h4>Navratan Korma</h4><span>₹300</span></div>
+    <div class="item"><h4>Dal Tadka</h4><span>₹260</span></div>
+    <div class="item"><h4>Dal Fry</h4><span>₹250</span></div>
+    <div class="item"><h4>Dal Makhani</h4><span>₹290</span></div>
+    <div class="item"><h4>Rajma Masala</h4><span>₹270</span></div>
+    <div class="item"><h4>Chole Masala</h4><span>₹260</span></div>
+    <div class="item"><h4>Dum Aloo</h4><span>₹300</span></div>
+    <div class="item"><h4>Aloo Gobi</h4><span>₹240</span></div>
+    <div class="item"><h4>Bhindi Masala</h4><span>₹260</span></div>
+    <div class="item"><h4>Methi Malai Matar</h4><span>₹290</span></div>
+    <div class="item"><h4>Veg Kolhapuri</h4><span>₹300</span></div>
+    <div class="item"><h4>Palak Paneer</h4><span>₹310</span></div>
+    <div class="item"><h4>Jeera Rice</h4><span>₹190</span></div>
+    <div class="item"><h4>Veg Pulao</h4><span>₹220</span></div>
+  </div>
+</section>
+
+<section id="fast">
+  <h2>Fast Foods</h2>
+  <div class="menu-grid">
+    <div class="item"><h4>Veg Burger</h4><span>₹180</span></div>
+    <div class="item"><h4>Cheese Burger</h4><span>₹210</span></div>
+    <div class="item"><h4>Veg Pizza</h4><span>₹280</span></div>
+    <div class="item"><h4>Cheese Pizza</h4><span>₹320</span></div>
+    <div class="item"><h4>Veg Sandwich</h4><span>₹170</span></div>
+    <div class="item"><h4>Grilled Cheese Sandwich</h4><span>₹200</span></div>
+    <div class="item"><h4>Veg Momos</h4><span>₹190</span></div>
+    <div class="item"><h4>Fried Momos</h4><span>₹220</span></div>
+    <div class="item"><h4>Veg Chowmein</h4><span>₹210</span></div>
+    <div class="item"><h4>Veg Fried Rice</h4><span>₹220</span></div>
+    <div class="item"><h4>Hakka Noodles</h4><span>₹230</span></div>
+    <div class="item"><h4>Paneer Frankie</h4><span>₹200</span></div>
+    <div class="item"><h4>Veg Puff</h4><span>₹80</span></div>
+    <div class="item"><h4>Cheese Puff</h4><span>₹100</span></div>
+    <div class="item"><h4>Pav Bhaji</h4><span>₹220</span></div>
+    <div class="item"><h4>Cheese Pav Bhaji</h4><span>₹260</span></div>
+    <div class="item"><h4>Veg Pasta</h4><span>₹260</span></div>
+    <div class="item"><h4>White Sauce Pasta</h4><span>₹280</span></div>
+    <div class="item"><h4>Red Sauce Pasta</h4><span>₹270</span></div>
+    <div class="item"><h4>Garlic Bread</h4><span>₹180</span></div>
+  </div>
+</section>
+
+<section id="south">
+  <h2>South Indian</h2>
+  <div class="menu-grid">
+    <div class="item"><h4>Plain Dosa</h4><span>₹180</span></div>
+    <div class="item"><h4>Masala Dosa</h4><span>₹220</span></div>
+    <div class="item"><h4>Butter Dosa</h4><span>₹240</span></div>
+    <div class="item"><h4>Mysore Masala Dosa</h4><span>₹260</span></div>
+    <div class="item"><h4>Idli (2 Pcs)</h4><span>₹150</span></div>
+    <div class="item"><h4>Vada (2 Pcs)</h4><span>₹160</span></div>
+    <div class="item"><h4>Idli Vada Combo</h4><span>₹190</span></div>
+    <div class="item"><h4>Plain Uttapam</h4><span>₹210</span></div>
+    <div class="item"><h4>Onion Uttapam</h4><span>₹230</span></div>
+    <div class="item"><h4>Tomato Uttapam</h4><span>₹230</span></div>
+    <div class="item"><h4>Set Dosa</h4><span>₹200</span></div>
+    <div class="item"><h4>Sambhar Rice</h4><span>₹220</span></div>
+    <div class="item"><h4>Curd Rice</h4><span>₹190</span></div>
+    <div class="item"><h4>Lemon Rice</h4><span>₹200</span></div>
+    <div class="item"><h4>Coconut Rice</h4><span>₹210</span></div>
+    <div class="item"><h4>Rava Dosa</h4><span>₹240</span></div>
+    <div class="item"><h4>Rava Masala Dosa</h4><span>₹260</span></div>
+    <div class="item"><h4>Pongal</h4><span>₹190</span></div>
+    <div class="item"><h4>Appam (2 Pcs)</h4><span>₹220</span></div>
+    <div class="item"><h4>Vegetable Stew</h4><span>₹240</span></div>
+  </div>
+</section>
+
+<section id="thali">
+  <h2>Special Thali</h2>
+
+  <div class="thali">
+    <h4>Rajasthani Thali – ₹450</h4>
+    <p>Dal Baati Churma, Gatte ki Sabzi, Ker Sangri, Bajra Roti, Jeera Rice, Salad, Papad, Ghewar, Butter Milk</p>
+  </div>
+
+  <div class="thali">
+    <h4>Punjabi Thali – ₹480</h4>
+    <p>Paneer Butter Masala, Dal Makhani, Chole, Butter Naan, Jeera Rice, Salad, Pickle, Gulab Jamun, Lassi</p>
+  </div>
+
+  <div class="thali">
+    <h4>Gujarati Thali – ₹460</h4>
+    <p>Gujarati Dal, Kadhi, Undhiyu, Thepla, Roti, Rice, Salad, Papad, Shrikhand, Chaas</p>
+  </div>
+
+  <div class="thali">
+    <h4>South Indian Thali – ₹420</h4>
+    <p>Sambhar, Rasam, Vegetable Poriyal, Curd, Rice, Papad, Payasam</p>
+  </div>
+</section>
+
+<section id="dessert">
+  <h2>Desserts</h2>
+  <div class="menu-grid">
+    <div class="item"><h4>Gulab Jamun</h4><span>₹120</span></div>
+    <div class="item"><h4>Rasgulla</h4><span>₹120</span></div>
+    <div class="item"><h4>Ice Cream</h4><span>₹150</span></div>
+    <div class="item"><h4>Brownie with Ice Cream</h4><span>₹220</span></div>
+    <div class="item"><h4>Gajar Halwa</h4><span>₹180</span></div>
+    <div class="item"><h4>Moong Dal Halwa</h4><span>₹190</span></div>
+    <div class="item"><h4>Kesar Pista Kulfi</h4><span>₹160</span></div>
+    <div class="item"><h4>Malai Kulfi</h4><span>₹150</span></div>
+    <div class="item"><h4>Shrikhand</h4><span>₹170</span></div>
+    <div class="item"><h4>Basundi</h4><span>₹180</span></div>
+    <div class="item"><h4>Fruit Salad</h4><span>₹150</span></div>
+    <div class="item"><h4>Payasam</h4><span>₹140</span></div>
+    <div class="item"><h4>Rabdi</h4><span>₹190</span></div>
+    <div class="item"><h4>Jalebi</h4><span>₹120</span></div>
+    <div class="item"><h4>Jalebi with Rabdi</h4><span>₹180</span></div>
+    <div class="item"><h4>Kheer</h4><span>₹140</span></div>
+    <div class="item"><h4>Phirni</h4><span>₹150</span></div>
+    <div class="item"><h4>Dry Fruit Laddu</h4><span>₹160</span></div>
+    <div class="item"><h4>Chocolate Pastry</h4><span>₹180</span></div>
+    <div class="item"><h4>Vanilla Pastry</h4><span>₹170</span></div>
+  </div>
+</section>
+
+<section id="beverages">
+  <h2>Beverages</h2>
+  <div class="menu-grid">
+    <div class="item"><h4>Tea</h4><span>₹60</span></div>
+    <div class="item"><h4>Masala Tea</h4><span>₹70</span></div>
+    <div class="item"><h4>Green Tea</h4><span>₹80</span></div>
+    <div class="item"><h4>Coffee</h4><span>₹90</span></div>
+    <div class="item"><h4>Filter Coffee</h4><span>₹110</span></div>
+    <div class="item"><h4>Cappuccino</h4><span>₹150</span></div>
+    <div class="item"><h4>Espresso</h4><span>₹140</span></div>
+    <div class="item"><h4>Hot Chocolate</h4><span>₹160</span></div>
+    <div class="item"><h4>Cold Coffee</h4><span>₹150</span></div>
+    <div class="item"><h4>Iced Tea</h4><span>₹120</span></div>
+    <div class="item"><h4>Fresh Lime Soda</h4><span>₹110</span></div>
+    <div class="item"><h4>Sweet Lassi</h4><span>₹140</span></div>
+    <div class="item"><h4>Salted Lassi</h4><span>₹130</span></div>
+    <div class="item"><h4>Butter Milk</h4><span>₹90</span></div>
+    <div class="item"><h4>Milkshake Vanilla</h4><span>₹170</span></div>
+    <div class="item"><h4>Milkshake Chocolate</h4><span>₹180</span></div>
+    <div class="item"><h4>Milkshake Strawberry</h4><span>₹180</span></div>
+    <div class="item"><h4>Fresh Fruit Juice</h4><span>₹160</span></div>
+    <div class="item"><h4>Soft Drinks</h4><span>₹90</span></div>
+    <div class="item"><h4>Mineral Water</h4><span>₹40</span></div>
+  </div>
+</section>
+
+<footer>
+  <p><strong>Contact Us</strong></p>
+  <p>📞 +91 94609 61256 | +91 81070 51754</p>
+  <p>✉️ sundhahillviewresort@gmail.com</p>
+  <p>📸 Instagram: <a href="https://www.instagram.com/sundha_hillview_resort" target="_blank">@sundha_hillview_resort</a></p>
+</footer>
+
+</body>
+</html>
